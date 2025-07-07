@@ -22,3 +22,13 @@ CSV Comparatorは、2つのCSVファイルを読み込み、差分を比較・�
 - 差分検出（追加・削除・変更）
 - 表示行の選択
 - Web対応（`flutter build web`）
+
+# Requirement
+
+* flutter
+* file_picker: ^6.0.0
+* csv: ^6.0.0
+
+# Author
+
+potetofly25 - 2025
