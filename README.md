@@ -1,20 +1,24 @@
-# csvcomparator
+# CSV Comparator (Flutter)
 
-A new Flutter project.
+CSV Comparatorは、2つのCSVファイルを読み込み、差分を比較・表示するFlutterアプリケーションです。  
+シンプルなUIで、行単位の比較結果を視覚的に確認できます。
 
-## Screen Shot
+## 🚀 特徴
+
+- 2つのCSVファイルを選択して比較
+- 行ごとの差分をハイライト表示
+- ファイルの内容をテーブル形式で表示
+- Flutter製のクロスプラットフォーム対応（Windows / macOS / Linux / Web）
+
+
+## 📸 スクリーンショット
 
 ![](screenshot.png)
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## 🛠 機能詳細
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- CSVファイル読み込み
+- 差分検出（追加・削除・変更）
+- 表示行の選択
+- Web対応（`flutter build web`）
