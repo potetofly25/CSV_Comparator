@@ -29,6 +29,14 @@ CSV Comparatorは、2つのCSVファイルを読み込み、差分を比較・�
 * file_picker: ^6.0.0
 * csv: ^6.0.0
 
+# Command
+
+## IconGen
+dart run flutter_launcher_icons:main
+
+## Build
+flutter build windows --release
+
 # Author
 
 potetofly25 - 2025
